@@ -1,0 +1,70 @@
+body {
+background-image: url(post.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+font-family:courier;
+}
+ul {
+text-align: center;
+list-style-type: none;
+margin-top: 50px;
+font-family:courier;
+}
+ul li {
+display: inline-block;
+color: red;
+background-color: white;
+margin: 0px 50px 0px 50px;
+}
+ul li a {
+text-decoration:none;
+color: red;
+padding: 10px 40px;
+border: 1px solid aqua;
+transition: 2s ease;
+background-color: white;
+}
+ul li a:hover{
+background-color: #EE82EE;
+color: #00FFFF;
+}
+
+h1{
+color: white;
+text-align: center;
+font-size: 64px;
+}
+
+h1:hover {
+color: #00FFFF;
+transition: 2s ease;
+}
+
+h2{
+color: white;
+text-align: center;
+font-size: 48px;
+}
+
+p{
+color: white;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 35em;
+color: white;
+font-size: 32px;
+}
+
+.left {
+margin: 50px 0px 0px 50px;
+float: left;
+width: 30%;
+}
+
+.right {
+margin: 0px 0px 50px 75px;
+float: left;
+width: 60%;
+}

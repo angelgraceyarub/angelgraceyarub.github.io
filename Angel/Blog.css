@@ -1,0 +1,92 @@
+body { 
+background-image: url(post.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+font-family:courier;
+}
+ul {
+text-align: center;
+list-style-type: none;
+margin-top: 50px;
+font-family:courier;
+}
+ul li {
+display: inline-block;
+color: red;
+background-color: white;
+margin: 0px 50px 0px 50px;
+}
+ul li a {
+text-decoration:none;
+color: red;
+padding: 10px 40px;
+border: 1px solid aqua;
+transition: 2s ease;
+background-color: white;
+}
+ul li a:hover{
+background-color: #EE82EE;
+color: #00FFFF;
+}
+
+.title{
+margin: 0px 0px 0px 0px;
+float: left;
+width: 19%;
+}
+
+.gallery{
+margin: 0px 0px 0px 0px;
+float: left;
+width: 80%;
+}
+
+h1{
+font-size: 64px;
+color: white;
+text-align: center;
+}
+
+h1:hover {
+color: #00FFFF;
+transition: 2s ease;
+}
+
+h2{
+font-size: 48px;
+color: white;
+text-align: center;
+}
+
+p{
+text-transform: uppercase;
+font-size: 32px;
+color: white;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 50em;
+margin-bottom: 50px;
+}
+
+img {
+width: 310px;
+height: 410px;
+margin: 0px 0px 0px 0px;
+}
+
+table{
+width: 100%;
+margin: 0px 0px 0px 0px;
+border: 0px solid black;
+border-collapse: collapse;
+}
+
+th{
+padding: 0px;
+}
+
+td{
+padding: 60px;
+}
